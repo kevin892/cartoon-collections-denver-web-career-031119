@@ -3,9 +3,11 @@
 def roll_call_dwarves(dwarves)# code an argument here
   # Your code here
 #.each
-  dwarves.each_with_index do |value, index|
+index = 0
+  dwarves.each do |value|
 
     puts "#{index+1}. #{value}"
+    i++
 end
 end
 # planeteer_calls = ["earth", "wind","fire","water", "heart"]
