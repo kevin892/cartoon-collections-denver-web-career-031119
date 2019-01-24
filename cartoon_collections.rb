@@ -2,7 +2,7 @@ require "pry"
 
 def roll_call_dwarves(dwarves)# code an argument here
   # Your code here
-  
+
   dwarves.to_enum.with_index(1).each do |value, index|
     binding.pry
     puts "#{index}. #{value}"
