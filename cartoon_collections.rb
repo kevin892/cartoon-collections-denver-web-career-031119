@@ -7,7 +7,7 @@ index = 0
   dwarves.each do |value|
 
     puts "#{index+1}. #{value}"
-    i += 1
+    index += 1
 end
 end
 # planeteer_calls = ["earth", "wind","fire","water", "heart"]
