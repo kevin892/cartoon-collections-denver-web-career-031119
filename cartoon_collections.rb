@@ -2,7 +2,7 @@ def roll_call_dwarves(dwarves)# code an argument here
   # Your code here
   binding.pry
   dwarves.to_enum.with_index(1).each do |value, index|
-    
+
     puts "#{index}. #{value}"
 end
 end
