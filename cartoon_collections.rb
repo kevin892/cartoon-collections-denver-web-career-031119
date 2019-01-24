@@ -3,7 +3,7 @@
 def roll_call_dwarves(dwarves)# code an argument here
   # Your code here
 
-  dwarves.with_index(1).each do |value, index|
+  dwarves.each_with_index(1).each do |value, index|
     binding.pry
     puts "#{index}. #{value}"
 end
